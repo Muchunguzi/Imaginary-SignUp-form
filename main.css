@@ -1,3 +1,21 @@
 body{
-    background-color: aquamarine;
+    background-color: gray;
+}
+div.container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+}
+section.side-image{
+    background: url(./images/Background_image.jpg);
+    width: 30%;
+}
+section.login-part{
+    background-color: white;
+    width: 70%;
+}
+.introduction{
+    font-weight: bold;
 }
