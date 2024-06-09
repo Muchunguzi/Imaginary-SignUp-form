@@ -9,7 +9,9 @@
 <body>
     <div class="container">
         <section class="side-image">
-<p>hello world</p>
+        <div class="logo">
+            <img id="logo" src="images/logo.png" alt="odins_logo" >
+        </div>
         </section>
         <section class="login-part">
             <section class="introduction">
@@ -24,21 +26,44 @@
             <section class="signUp">
                 <h3>Lets do this!</h3>
                 <form action="#">
-                    <div class="left">
-                     <p>
-                        <label for="firstName">
-                            FIRST NAME :
-                            <input type="text" name="firstName" id="firstName">
-                        </label>
-                        <label for="email">
-                            EMAIL:
-                            <input type="email" name="email" id="email" required>
-                        </label>
-                     </p>
-                    </div>
-                    <div class="right">
-
-                    </div>
+                    <fieldset class="widgets">
+                        <div class="left">
+                            <p>
+                               <label for="firstName">FIRST NAME : </label><br >
+                               <input type="text" name="firstName" id="firstName">
+                              
+                           </p>
+                            <p>
+                               <label for="email">EMAIL:  </label><br>
+                               <input type="email" name="email" id="email" required>
+                             
+                            </p>
+                            <p>
+                               <label for="password">PASSWORD:</label><br>
+                               <input type="password" name="password" id="password">
+                               
+                            </p>
+                           </div>
+                           <div class="right">
+                               <p>
+                                   <label for="lastName">LAST NAME : </label><br >
+                                   <input type="text" name="lastName" id="lastName" required>
+                                  
+                               </p>
+                                <p>
+                                   <label for="phone">PHONE NUMBER:  </label><br>
+                                   <input type="tel" name="phone" id="phone" required>
+                                 
+                                </p>
+                                <p>
+                                   <label for="password">CONFIRM PASSWORD:</label><br>
+                                   <input type="password" name="password" id="password" required>
+                                   
+                                </p>
+                           </div>
+                    </fieldset>
+                    <button type="submit">Create Account</button>
+                    <p>Already have an account? <a href="#">Login</a></p>
                 </form>
             </section>
            
