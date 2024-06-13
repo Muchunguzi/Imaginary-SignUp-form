@@ -30,35 +30,36 @@
                         <div class="left">
                             <p>
                                <label for="firstName">FIRST NAME : </label><br >
-                               <input type="text" name="firstName" id="firstName">
+                               <input type="text" name="firstName" id="firstName" required>
+                               <span class="error"></span>
                               
                            </p>
                             <p>
                                <label for="email">EMAIL:  </label><br>
                                <input type="email" name="email" id="email" required>
-                             
+                                <span class="error"></span>
                             </p>
                             <p>
                                <label for="password">PASSWORD:</label><br>
                                <input type="password" name="password" id="password">
-                               
+                               <span class="error"></span>
                             </p>
                            </div>
                            <div class="right">
                                <p>
                                    <label for="lastName">LAST NAME : </label><br >
                                    <input type="text" name="lastName" id="lastName" required>
-                                  
+                                   <span class="error"></span>
                                </p>
                                 <p>
                                    <label for="phone">PHONE NUMBER:  </label><br>
                                    <input type="tel" name="phone" id="phone" required>
-                                 
+                                   <span class="error"></span>
                                 </p>
                                 <p>
-                                   <label for="password">CONFIRM PASSWORD:</label><br>
-                                   <input type="password" name="password" id="password" required>
-                                   
+                                   <label for="cPassword">CONFIRM PASSWORD:</label><br>
+                                   <input type="password" name="password" id="cPassword" required>
+                                   <span class="error"></span>
                                 </p>
                            </div>
                     </fieldset>
@@ -69,6 +70,6 @@
            
         </section>
     </div>
-   
+  <script src="./main.js"></script> 
 </body>
 </html>
