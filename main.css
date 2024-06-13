@@ -54,3 +54,45 @@ button[type=submit]{
     border:none;
     border-radius: 4px;
 }
+
+.invalid{
+    background: red;
+    border: 1px solid red;
+}
+input[type="email"]{
+    appearance: none;
+    width: 100%;
+    border: 1px solid #333;
+    margin: 0;
+
+    font-family: inherit;
+    font-size:90%;
+
+    box-sizing: border-box;
+}
+
+/*This is our style for the invalid fields*/
+input:invalid{
+    border-color: #900;
+    background-color: #fdd;
+}
+
+input:focus:invalid{
+    outline:none;
+}
+
+/*This is the style of our error messages*/
+.error{
+    width: 100%;
+    padding: 0;
+
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+
+    box-sizing: border-box;
+}
+
+.error.active{
+    padding: 0.3em;
+}
