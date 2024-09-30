@@ -73,7 +73,7 @@ input[type="email"]{
 
 /*This is our style for the invalid fields*/
 input:invalid{
-    border-color: #900;
+    border-color:#900;
     background-color: #fdd;
 }
 
@@ -95,4 +95,8 @@ input:focus:invalid{
 
 .error.active{
     padding: 0.3em;
+}
+
+span{
+    display: block;
 }
